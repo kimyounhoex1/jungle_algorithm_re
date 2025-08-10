@@ -18,7 +18,7 @@ int main(){
     arr[number]++; 
   }
 
-  for(int i = 0; i<10001; i++){
+  for(int i = 0; i<10001; i++){ 
     if(arr[i] > 0){
       for(int j = 0; j<arr[i]; j++){
         cout << i << '\n';
